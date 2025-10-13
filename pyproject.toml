@@ -1,0 +1,33 @@
+[project]
+name = "agents-course"
+version = "0.1.0"
+description = "Environment created to run all the assignments of the HuggingFace agents course."
+authors = [
+    {name = "Arnau",email = "arnau.alabort.medina@gmail.com"}
+]
+readme = "README.md"
+requires-python = ">=3.11,<4.0"
+dependencies = [
+    "smolagents[litellm] (>=1.21.3,<2.0.0)",
+    "ddgs (>=9.5.5,<10.0.0)",
+    "langchain (>=0.3.27,<0.4.0)",
+    "langchain-community (>=0.3.29,<0.4.0)",
+    "rank-bm25 (>=0.2.2,<0.3.0)",
+    "plotly (>=6.3.0,<7.0.0)",
+    "pandas (>=2.3.2,<3.0.0)",
+    "geopandas (>=1.1.1,<2.0.0)",
+    "markdownify (>=1.2.0,<2.0.0)",
+    "requests (>=2.32.5,<3.0.0)",
+    "kaleido (>=1.1.0,<2.0.0)",
+    "helium (>=5.1.1,<6.0.0)",
+    "langgraph (>=0.6.10,<0.7.0)",
+    "langchain-openai (>=0.3.35,<0.4.0)",
+    "langfuse (>=3.6.2,<4.0.0)",
+    "langchain-core (>=0.3.79,<0.4.0)",
+
+]
+
+
+[build-system]
+requires = ["poetry-core>=2.0.0,<3.0.0"]
+build-backend = "poetry.core.masonry.api"
